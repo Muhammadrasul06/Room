@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddFragment">
+
+    <EditText
+        android:id="@+id/edTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rentangle"
+        android:hint="Enter title"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp" />
+
+    <EditText
+        android:id="@+id/edDescpiction"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rentangle"
+        android:hint="Enter description"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="save in library"
+        app:cornerRadius="120dp" />
+
+</LinearLayout>
